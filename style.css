@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img {
+    height: 100px;
+}
+.board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
+}
+
+.square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.announce {
+    font-size: 3rem;
+    color:red;
+}
